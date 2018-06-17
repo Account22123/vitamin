@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="shortcut icon" href="css/img/icon.jpg"/>
+      <title>Ask A Vitamin Specialist</title>
+      <link rel="stylesheet"
+         href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Bubblegum+Sans" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Tajawal" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Muli:300i|Tajawal:300" rel="stylesheet">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+   </head>
+   <body>
+      <h1>Pricing</h1>
+      <div class="grass">
+         <p>
+         <img src="css/img/plants400px.jpg" alt="footer lined with various potted plants.">
+      </p>
+      </div>
+   </body>
+   </html>

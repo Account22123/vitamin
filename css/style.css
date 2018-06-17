@@ -1,0 +1,960 @@
+ @media screen and (max-width: 767px) {
+     head {
+         background-color: #E0DDDD;
+    }
+     body {
+         background-color: #E0DDDD;
+    }
+    /*This is the green banner div content*/
+     .center {
+         display: flex;
+         justify-content: space-around;
+    }
+    /*This is the background div for the indexLogo*/
+     .indexLogoDivSmall {
+         background-color: #E0DDDD;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+    }
+     .indexLogoDivLarge {
+         display: none;
+    }
+    /* This is the div containg the big logo at the top of index.html*/
+     .indexLogo {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+    }
+    /*This is the white background with black phone icon adjusted to fit the icon with the html'd number*/
+     .indexBlackPhoneDiv {
+         background-color: white;
+         display: flex;
+         justify-content: space-around;
+    }
+    /*This is the white background with black phone icon adjusted to fit the icon with the html'd number*/
+     .indexBlackPhoneDivNone{
+         display: none;
+    }
+     .phoneIconLarge {
+         display: none;
+    }
+    /*This fonts the "Questions", "Consolidation", and "Formulations" text*/
+     .descriptions {
+         font-family: 'Tajawal', sans-serif;
+         text-align: center
+    }
+    /*This is the back of the div containg the heroImage of the facing chairs.*/
+     #heroSmall {
+         padding-top: 2%;
+         max-width: 100%
+    }
+    #cloud1Left {
+        position: absolute;
+        top: 28%;
+        left: 33%;
+        opacity: 0;
+        -webkit-animation: fadeinout 12s linear forwards;
+        animation: fadeinout 12s linear forwards;
+
+    }
+
+    @-webkit-keyframes fadeinout {
+  0%,100% { opacity: 0; }
+  50% { opacity: 1; }
+}
+
+@keyframes fadeinout {
+  0%,100% { opacity: 0; }
+  50% { opacity: 1; }
+}
+     #heroMedium {
+         display: none;
+    }
+
+     #heroLarge {
+         display: none;
+    }
+     #heroXtraLarge {
+         display: none;
+    }
+    /*This is the padding around the three pics of the pill/quest, woman/consolid, & bottles/form*/
+     .theServicesSmall {
+         display: flex;
+         justify-content: space-around;
+         padding-top: 3%;
+    }
+     .theServicesMedium {
+         display: none;
+    }
+}
+ .theServicesLarge {
+     display: none;
+}
+ .theServicesXtraLarge {
+     display:none;
+}
+/*Aboutus.html*/
+/*This is centering the contents of the green banner*/
+ .centerAbout {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+/*This is the formatted text content of the mission statement on about.html*/
+ .missionDivSmall {
+     padding-left: 8%;
+     padding-right: 8%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-family: 'Nunito Sans', sans-serif;
+}
+/*This is the about.html Title called --Our Mission--*/
+ .missionTitleSmall {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-family: 'Nunito Sans', sans-serif;
+     animation-duration: 3s;
+}
+ .missionTitleMedium {
+     display: none;
+}
+/*This is the rising logo.*/
+ #risingLogo {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding-left: 5%;
+     padding-top: 4%;
+     animation-delay: 4s;
+     animation-duration: 8s;
+}
+/*This is the plants footer*/
+ .plantsFooterAboutSmall {
+     display: none;
+}
+ .plantsFooterAboutLarge {
+     display: none;
+}
+ .plantsFooterAboutXtraLarge {
+     display: none;
+}
+/*Prices.html*/
+/*This is the content in the green banner.*/
+ .centerPricing {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+/*This is the Pricing and Services div on pricing.html*/
+ .pricingHeader {
+     font-family: 'Buda', cursive;
+     display: flex;
+     justify-content: center;
+     align-content: center;
+     animation-duration: 2.0s;
+}
+/*This underlines text in Buda font*/
+ .underline {
+     text-decoration: underline;
+     font-family: 'Buda', cursive;
+}
+ .pricesMedium {
+     display: none;
+}
+ .pricesXtraLarge {
+     display: none;
+}
+/*This is the receiver phones with bubbles div*/
+ .firstSlide {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     font-family: 'Buda', cursive;
+     animation-delay: 2.25s;
+}
+/*This is the clipboard div on pricing.html*/
+ .secondSlide {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     font-family: 'Buda', cursive;
+     animation-delay: 3.5s;
+}
+/*This is the world with the headset div on pricing.html*/
+ .thirdSlide {
+     display:flex;
+     justify-content: space-around;
+     align-items: center;
+     font-family: 'Buda', cursive;
+     animation-delay: 4.75s;
+}
+ .plantsFooterPricingSmall {
+     display: none;
+}
+ .plantsFooterPricingLarge {
+     display: none;
+}
+/*myAccount.html*/
+ .indexLogoDivAboutUsSmall {
+     display: flex;
+     justify-content: space-around;
+}
+ .indexLogoDivAboutUsMedium {
+     display: none;
+}
+
+/*This is the title for the myaccount.html*/
+ .myAccountTitleSmall {
+     font-family: 'Tajawal', sans-serif;
+     font-size: 25px;
+     padding-top: 1%;
+}
+
+/*This is the giant clipboard where the account form will be filled out*/
+ .clipboardDivSmall {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding-top: 4%;
+     animation-duration: 2.75s;
+}
+ .clipboardDivMedium {
+     display: none;
+}
+
+/*This centers the clipboard*/
+ .centering {
+     position: absolute;
+     margin-left: 5.25%;
+}
+
+
+.bubblegum {
+      font: 15px 'Bubblegum Sans', cursive;
+}
+
+
+
+input.custom {
+
+  border-radius: 45px;
+  caret-color: lawngreen;
+  font: 15px 'Bubblegum Sans', cursive;
+}
+
+#telephone {
+      border-radius: 45px;
+  caret-color: lawngreen;
+  font: 15px 'Bubblegum Sans', cursive;
+}
+
+#formEmail {
+      border-radius: 45px;
+  caret-color: lawngreen;
+  font: 15px 'Bubblegum Sans', cursive;
+}
+
+
+.button {
+    background-color: #4CAF50;
+    border-radius: 45px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+
+    margin-left: 12%;
+    font-size: 16px;
+
+    cursor: pointer;
+}
+
+ @media only screen and (max-width: 992px) and (min-width: 768px) {
+     head {
+         background-color: #E0DDDD;
+    }
+     body {
+         background-color: #E0DDDD;
+    }
+    /*This is the green banner div content*/
+     .center {
+         display: flex;
+         justify-content: space-around;
+    }
+    /*This is the background div for the indexLogo*/
+     .indexLogoDivSmall {
+         background-color: #E0DDDD;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         padding-right: 3%;
+    }
+     .indexLogoDivLarge {
+         display: none;
+    }
+    /* This is the div containg the big logo at the top of index.html*/
+     .indexLogo {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         padding-bottom: 2%;
+         padding-top: 2%;
+    }
+    /*This is the white background with black phone icon adjusted to fit the icon with the html'd number*/
+     .indexBlackPhoneDiv {
+         background-color: white;
+         display: flex;
+         justify-content: space-around;
+    }
+    /*This is the white background with black phone icon adjusted to fit the icon with the html'd number*/
+     .indexBlackPhoneDivNone{
+         display: none;
+    }
+    /*This is the white background with black phone icon adjusted to fit the icon with the html'd number*/
+     .phoneIconSmall {
+         background-color: white;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         padding-right: 5%;
+    }
+     .phoneIconLarge {
+         display: none;
+    }
+    /*This fonts the "Questions", "Consolidation", and "Formulations" text*/
+     .descriptions {
+         font-family: 'Tajawal', sans-serif;
+         text-align: center
+    }
+    /*This is the back of the div containg the heroImage of the facing chairs.*/
+     #heroSmall {
+         display: none;
+    }
+    /*This is hiding the desktop full screen of hero image*/
+     #heroMedium {
+         max-width: 100%;
+    }
+     #heroLarge {
+         display: none;
+    }
+     #heroXtraLarge {
+         display: none;
+    }
+    /*This is the padding around the three pics of the pill/quest, woman/consolid, & bottles/form*/
+     .theServicesSmall {
+         display: none;
+    }
+     .theServicesMedium {
+         display: flex;
+         justify-content: space-around;
+         padding-top: 2%;
+    }
+     .theServicesLarge {
+         display: none;
+    }
+     .theServicesXtraLarge {
+         display:none;
+    }
+
+    /*These are the swinging blacks containing the the services questions, consolidation, formulations.*/
+     .webQuestions {
+         border: 1px solid;
+         padding: 10px;
+         box-shadow: 5px 10px #888888;
+         animation-delay: 0.4s;
+         animation-duration: 2s;
+         animation-iteration-count: 2;
+    }
+     .webVitaminConsolidation {
+         border: 1px solid;
+         padding: 10px;
+         box-shadow: 5px 10px #888888;
+         animation-delay: 1.5s;
+         animation-duration: 2s;
+         animation-iteration-count: 2;
+    }
+     .webFormulationQuestions {
+         border: 1px solid;
+         padding: 10px;
+         box-shadow: 5px 10px #888888;
+         animation-delay: 0.4s;
+         animation-duration: 2s;
+         animation-iteration-count: 2;
+    }
+    /*Aboutus.html*/
+    /*This is centering the contents of the green banner*/
+     .centerAbout {
+         display: flex;
+         justify-content: space-around;
+    }
+    /*This is the formatted text content of the mission statement on about.html*/
+     .missionDivSmall {
+         padding-left: 8%;
+         padding-right: 8%;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         font-family: 'Nunito Sans', sans-serif;
+    }
+    /*This is the about.html Title called --Our Mission--*/
+     .missionTitleSmall {
+         display: none;
+    }
+     .missionTitleMedium {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         animation-duration: 4s;
+    }
+    /*This is the rising logo.*/
+     #risingLogo {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         padding-left: 5%;
+         animation-delay: 2s;
+         animation-duration: 8s;
+    }
+    /*This is the plants footer*/
+     .plantsFooterAboutSmall {
+         display: flex;
+         justify-content: center;
+         align-content: flex-end;
+         animation-duration: 3s;
+         animation-duration: 10s;
+    }
+     .plantsFooterAboutLarge {
+         display: none;
+    }
+     .plantsFooterAboutXtraLarge {
+         display: none;
+    }
+    /*Prices.html*/
+    /*This is the content in the green banner.*/
+     .centerPricing {
+         display: flex;
+         justify-content: space-between;
+    }
+    /*This is the Pricing and Services div on pricing.html*/
+     .pricingHeader {
+         font-family: 'Buda', cursive;
+         display: flex;
+         justify-content: center;
+         align-content: center;
+         animation-duration: 2.0s;
+    }
+    /*This underlines text in Buda font*/
+     .underline {
+         text-decoration: underline;
+         font-family: 'Buda', cursive;
+    }
+    /*This shifts the services part in pricing.html right*/
+     .textRightSmall {
+         display: none;
+    }
+     .pricesSmall {
+         display: none;
+    }
+     .pricesMedium {
+         display: flex;
+         flex-direction: column;
+         justify-content: space-around;
+    }
+     .pricesXtraLarge {
+         display: none;
+    }
+    /*This is the receiver phones with bubbles div*/
+     .firstSlide {
+         display: flex;
+         font-family: 'Buda', cursive;
+         animation-delay: 2.25s;
+    }
+    /*This is the clipboard div on pricing.html*/
+     .secondSlide {
+         display: flex;
+         padding-left: 2%;
+         font-family: 'Buda', cursive;
+         animation-delay: 3.5s;
+    }
+    /*This is the world with the headset div on pricing.html*/
+     .thirdSlide {
+         display:flex;
+         font-family: 'Buda', cursive;
+         animation-delay: 4.75s;
+    }
+     .plantsFooterPricingSmall {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+    }
+     .plantsFooterPricingLarge {
+         display: none;
+    }
+    /*myAccount.html*/
+     .indexLogoDivAboutUsSmall {
+         display: none;
+    }
+     .indexLogoDivAboutUsMedium {
+         display: flex;
+         justify-content: space-around;
+         animation-delay: 1.5s;
+         animation-duration: 3s;
+    }
+     .myAccountTitleSmall {
+         display: none;
+    }
+     .myAccountTitleMedium {
+         margin-top: 5%;
+         font-family: 'Tajawal', sans-serif;
+    }
+     .clipboardDivSmall {
+         display: none;
+    }
+     .clipboardDivMedium {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+    }
+}
+ @media only screen and (max-width: 1200px) and (min-width: 993px) {
+     head {
+         background-color: #E0DDDD;
+    }
+     body {
+         background-color: #E0DDDD;
+    }
+    /*This is the green banner div content*/
+     .center {
+         display: flex;
+         justify-content: space-around;
+    }
+    /*This is the background div for the indexLogo*/
+     .indexLogoDivSmall {
+         display: none;
+    }
+     .indexLogoDivLarge {
+         display: flex;
+         justify-content: space-between;
+         padding: 2%;
+         animation-duration: 3s;
+         font-family: 'Londrina Outline', cursive;
+         font-size: 50px;
+    }
+    /*This is the white background with black phone icon adjusted to fit the icon with the html'd number*/
+     .indexBlackPhoneDiv {
+         background-color: white;
+         display: flex;
+         justify-content: space-around;
+    }
+     .indexBlackPhoneDiv {
+         display: none;
+    }
+    /*This is the white background with black phone icon adjusted to fit the icon with the html'd number*/
+     .indexBlackPhoneDivNone{
+         font-family: 'Londrina Outline', cursive;
+         font-size: 50px;
+    }
+    /* This is the div containg the big logo at the top of index.html*/
+     .indexLogo {
+    }
+     .phoneLarge {
+         font-family: 'Londrina Outline', cursive;
+         font-size: 45px;
+    }
+    /*This is the white background with black phone icon adjusted to fit the icon with the html'd number*/
+     .phoneIconSmall {
+         display: none;
+    }
+    /*This fonts the "Questions", "Consolidation", and "Formulations" text*/
+     .descriptions {
+         font-family: 'Tajawal', sans-serif;
+         text-align: center
+    }
+     #mainImage {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+    }
+    /*This is the back of the div containg the heroImage of the facing chairs.*/
+     #heroSmall {
+         display: none;
+    }
+    /*This is hiding the desktop full screen of hero image*/
+     #heroMedium {
+         display: none;
+    }
+     #heroLarge {
+         width: 100%;
+    }
+     #heroXtraLarge {
+         display: none;
+    }
+    /*This is the padding around the three pics of the pill/quest, woman/consolid, & bottles/form*/
+     .theServicesSmall {
+         display: none;
+    }
+     .theServicesMedium {
+         display: none;
+    }
+     .theServicesLarge {
+         display: flex;
+         justify-content: space-around;
+         padding-top: 2%;
+    }
+     .theServicesXtraLarge {
+         display:none;
+    }
+
+        /*These are the swinging blacks containing the the services questions, consolidation, formulations.*/
+     .webQuestions {
+         border: 1px solid;
+         padding: 10px;
+         box-shadow: 5px 10px #888888;
+         animation-delay: 0.4s;
+         animation-duration: 2s;
+         animation-iteration-count: 2;
+    }
+     .webVitaminConsolidation {
+         border: 1px solid;
+         padding: 10px;
+         box-shadow: 5px 10px #888888;
+         animation-delay: 1.5s;
+         animation-duration: 2s;
+         animation-iteration-count: 2;
+    }
+     .webFormulationQuestions {
+         border: 1px solid;
+         padding: 10px;
+         box-shadow: 5px 10px #888888;
+         animation-delay: 0.4s;
+         animation-duration: 2s;
+         animation-iteration-count: 2;
+    }
+    /*Aboutus.html*/
+    /*This is centering the contents of the green banner*/
+     .centerAbout {
+         display: flex;
+         justify-content: space-around;
+    }
+    /*This is the formatted text content of the mission statement on about.html*/
+     .missionDivSmall {
+         padding-left: 8%;
+         padding-right: 8%;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         font-family: 'Nunito Sans', sans-serif;
+    }
+    /*This is the about.html Title called --Our Mission--*/
+     .missionTitleSmall {
+         display: none;
+    }
+     .missionTitleMedium {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         animation-duration: 4s;
+    }
+    /*This is the rising logo.*/
+     #risingLogo {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         padding-left: 5%;
+         animation-delay: 2s;
+         animation-duration: 8s;
+    }
+    /*This is the plants footer*/
+     .plantsFooterAboutSmall {
+         display: none;
+    }
+     .plantsFooterAboutLarge {
+         display: flex;
+         justify-content: center;
+         align-content: flex-end;
+         animation-duration: 10s;
+    }
+     .plantsFooterAboutXtraLarge {
+         display: none;
+    }
+    /*Prices.html*/
+    /*This is the content in the green banner.*/
+     .centerPricing {
+         display: flex;
+         justify-content: space-between;
+    }
+    /*This is the Pricing and Services div on pricing.html*/
+     .pricingHeader {
+         font-family: 'Buda', cursive;
+         display: flex;
+         justify-content: center;
+         align-content: center;
+         animation-duration: 2.0s;
+    }
+    /*This underlines text in Buda font*/
+     .underline {
+         text-decoration: underline;
+         font-family: 'Buda', cursive;
+    }
+    /*This shifts the services part in pricing.html right*/
+     .textRightSmall {
+         display: none;
+    }
+     .pricesSmall {
+         display: none;
+    }
+     .pricesMedium {
+         display: flex;
+         flex-direction: column;
+         justify-content: space-around;
+    }
+     .pricesXtraLarge {
+         display: none;
+    }
+    /*This is the receiver phones with bubbles div*/
+     .firstSlide {
+         display: flex;
+         font-family: 'Buda', cursive;
+         animation-delay: 2.25s;
+    }
+    /*This is the clipboard div on pricing.html*/
+     .secondSlide {
+         display: flex;
+         padding-left: 2%;
+         font-family: 'Buda', cursive;
+         animation-delay: 3.5s;
+    }
+    /*This is the world with the headset div on pricing.html*/
+     .thirdSlide {
+         display:flex;
+         font-family: 'Buda', cursive;
+         animation-delay: 4.75s;
+    }
+     .plantsFooterPricingSmall {
+         display: none;
+    }
+     .plantsFooterPricingLarge {
+         display: flex;
+         justify-content: flex-start;
+    }
+}
+ @media only screen and (min-width: 1200px) {
+     head {
+         background-color: #E0DDDD;
+    }
+     body {
+         background-color: #E0DDDD;
+    }
+    /*This is the green banner div content*/
+     .center {
+         display: flex;
+         justify-content: space-around;
+    }
+    /*This is the background div for the indexLogo*/
+     .indexLogoDivSmall {
+         display: none;
+    }
+     .indexLogoDivLarge {
+         display: flex;
+         justify-content: space-around;
+         padding: 2%;
+         animation-duration: 3s;
+    }
+     .indexBlackPhoneDiv {
+         display: none;
+    }
+    /*This is the white background with black phone icon adjusted to fit the icon with the html'd number*/
+     .indexBlackPhoneDivNone{
+         font-family: 'Londrina Outline', cursive;
+         font-size: 75px;
+    }
+     .phoneLarge {
+         font-family: 'Londrina Outline', cursive;
+         font-size: 45px;
+    }
+    /*This is the white background with black phone icon adjusted to fit the icon with the html'd number*/
+     .phoneIconSmall {
+         display: none;
+    }
+    /*This fonts the "Questions", "Consolidation", and "Formulations" text*/
+     .descriptions {
+         font-family: 'Tajawal', sans-serif;
+         font-size: 25px;
+         text-align: center
+    }
+     #mainImage {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+    }
+    /*This is the back of the div containg the heroImage of the facing chairs.*/
+     #heroSmall {
+         display: none;
+    }
+
+     #heroMedium {
+         display: none;
+    }
+     #heroLarge {
+         display: none;
+    }
+     #heroXtraLarge {
+         max-width: 100%;
+    }
+    /*This is the padding around the three pics of the pill/quest, woman/consolid, & bottles/form*/
+     .theServicesSmall {
+         display: none;
+    }
+     .theServicesMedium {
+         display: none;
+    }
+     .theServicesLarge {
+         display: none;
+    }
+     .theServicesXtraLarge {
+         display: flex;
+         justify-content: space-around;
+         padding-top: 3%
+    }
+
+    /*These are the swinging blacks containing the the services questions, consolidation, formulations.*/
+     .webQuestions {
+         border: 1px solid;
+         padding: 10px;
+         box-shadow: 5px 10px #888888;
+         animation-delay: 0.4s;
+         animation-duration: 2s;
+         animation-iteration-count: 2;
+    }
+     .webVitaminConsolidation {
+         border: 1px solid;
+         padding: 10px;
+         box-shadow: 5px 10px #888888;
+         animation-delay: 1.5s;
+         animation-duration: 2s;
+         animation-iteration-count: 2;
+    }
+     .webFormulationQuestions {
+         border: 1px solid;
+         padding: 10px;
+         box-shadow: 5px 10px #888888;
+         animation-delay: 0.4s;
+         animation-duration: 2s;
+         animation-iteration-count: 2;
+    }
+    /*Aboutus.html*/
+    /*This is centering the contents of the green banner*/
+     .centerAbout {
+         display: flex;
+         justify-content: space-around;
+    }
+    /*This is the formatted text content of the mission statement on about.html*/
+     .missionDivSmall {
+         padding-left: 8%;
+         padding-right: 8%;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         font-family: 'Nunito Sans', sans-serif;
+    }
+    /*This is the about.html Title called --Our Mission--*/
+     .missionTitleSmall {
+         display: none;
+    }
+     .missionTitleMedium {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         animation-duration: 4s;
+    }
+    /*This is the rising logo.*/
+     #risingLogo {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         padding-left: 5%;
+         animation-delay: 2s;
+         animation-duration: 8s;
+    }
+    /*This is the plants footer*/
+     .plantsFooterAboutSmall {
+         display: none;
+    }
+     .plantsFooterAboutLarge {
+         display: none;
+    }
+     .plantsFooterAboutXtraLarge {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         animation-duration: 10s;
+    }
+    /*Prices.html*/
+    /*This is the content in the green banner.*/
+     .centerPricing {
+         display: flex;
+         justify-content: space-between;
+    }
+    /*This is the Pricing and Services div on pricing.html*/
+     .pricingHeader {
+         font-family: 'Buda', cursive;
+         display: flex;
+         justify-content: center;
+         align-content: center;
+         animation-duration: 2.0s;
+    }
+    /*This underlines text in Buda font*/
+     .underline {
+         text-decoration: underline;
+         font-family: 'Buda', cursive;
+    }
+    /*This shifts the services part in pricing.html right*/
+     .textRightSmall {
+         display: none;
+    }
+     .pricesSmall {
+         display: none;
+    }
+     .pricesMedium {
+         display: none;
+    }
+     .pricesXtraLarge {
+         display: flex;
+         flex-direction: column;
+         justify-content: space-around;
+    }
+    /*This is the receiver phones with bubbles div*/
+     .firstSlide {
+         display: flex;
+         font-family: 'Buda', cursive;
+         animation-delay: 2.25s;
+    }
+    /*This is the clipboard div on pricing.html*/
+     .secondSlide {
+         display: flex;
+         padding-left: 2%;
+         font-family: 'Buda', cursive;
+         animation-delay: 3.5s;
+    }
+    /*This is the world with the headset div on pricing.html*/
+     .thirdSlide {
+         display:flex;
+         font-family: 'Buda', cursive;
+         animation-delay: 4.75s;
+    }
+    /*This displays the potted plants footer*/
+     .plantsFooterPricingSmall {
+         display: none;
+    }
+     .plantsFooterPricingLarge {
+         display: none;
+    }
+     .plantsFooterPricingXtraLarge {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+    }
+}
